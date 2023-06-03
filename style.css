@@ -1,0 +1,79 @@
+@font-face{
+    src:url(fonts/OneDirection.ttf)format("truetype");
+    font-family: nos;
+}
+.paragraph{
+    text-align:center;
+    font-size: 50px;
+    font-family:sans-serif ;
+}
+.paragraph2{
+    text-align: center;
+    font-size: 30px;
+    font-family: nos;
+}
+.menu-bar{
+    text-align: center;
+    background-color: #000000;
+}
+.menu-bar ul{
+    display: inline-flex;
+    color: floralwhite;
+}
+.menu-bar ul li{
+    font-family: Impact;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li:hover
+{
+    background: rgb(198, 221, 232);
+    color:#000000;
+    border-radius: 3px;
+}
+.paragraph5{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+    padding: 5px;
+    padding-left: 30px;
+}
+.admin{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 400px;
+}
+.admin::after{
+    background-color: darkred;
+}
+.admin:hover{
+    background: fixed;
+}
+.admin a{
+    text-align: none;
+    color: aliceblue;
+    background: rgb(36,32, 30)
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.icons a{margin: right 75px;}
+.icons:hover{
+    transform: scale(1.5);
+}
+.footer{
+    background-color: black;
+    margin-top:28%;
+}
+.icons{
+    display: flex;
+    font-size: 3rem;
+    margin-top: 0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+}
